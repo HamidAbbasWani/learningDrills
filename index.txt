@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style\bs\css\bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="style\css\indexx.css"/>
+		<script src="style\bootstrap\js\jquery.js"></script>
+		<script src="style\bs\js\bootstrap.js"></script>
+	</head>
+	<body>
+		<main class="container-fluid">
+			<header id="header" class="row bg-success">
+				<div class="col-md-3">
+					<iframe class="header_slide" src="index_support_file.php">
+					</iframe>
+				</div>
+				<div id="search" class="col-md-6">
+					<form autocomplete="on" action="" accept-charset="UTF-8">
+						<input id="search_box" class="text-uppercase" type="search" name="search" placeholder="Search Product" required/>
+						<input id="search_submit" class="btn btn-sm btn-block" type="submit" value="Search"name="search_submit"/>
+					</form>
+				</div>
+				<div class="col-md-3">
+					<iframe class="header_slide" src="index_support_file.php">
+					</iframe>
+				</div>
+			</header>
+			<nav class="row">
+				<div id="nav" class="navbar navbar-inverse text-uppercase">
+					<div id="brand" class="navbar-header col-md-3">
+						<a class="navbar-brand" href="">Medical Store <span class="glyphicon glyphicon-home"></span></a>
+					</div>
+					<ul id="left_tabs" class="nav navbar-nav col-md-6">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle item-left" data-toggle="dropdown">medicines<span class="caret"></span></a>
+							<ul class="dropdown-menu left_tabs_dropdown">
+								<li><a class="dropdown-header" href="">By Condition</a></li>
+								<li class="divider"></li>
+								<li><a href="">anemia</a></li>
+								<li><a href="">asthama</a></li>
+								<li><a href="">allergies</a></li>
+								<li><a href="">thyroid</a></li>
+								<li><a href="">diabeties</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle item-left" data-toggle="dropdown">personal care<span class="caret"></span></a>
+							<ul  class="dropdown-menu left_tabs_dropdown">
+								<li><a class="dropdown-header" href="">By Condition</a></li>
+								<li class="divider"></li>
+								<li><a href="">anemia</a></li>
+								<li><a href="">asthama</a></li>
+								<li><a href="">allergies</a></li>
+								<li><a href="">thyroid</a></li>
+								<li><a href="">diabeties</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle item-left" data-toggle="dropdown">family care<span class="caret"></span></a>
+							<ul  class="dropdown-menu left_tabs_dropdown">
+								<li><a class="dropdown-header" href="">By Condition</a></li>
+								<li class="divider"></li>
+								<li><a href="">anemia</a></li>
+								<li><a href="">asthama</a></li>
+								<li><a href="">allergies</a></li>
+								<li><a href="">thyroid</a></li>
+								<li><a href="">diabeties</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle item-left" data-toggle="dropdown">baby care<span class="caret"></span></a>
+							<ul  class="dropdown-menu left_tabs_dropdown">
+								<li><a class="dropdown-header" href="">By Condition</a></li>
+								<li class="divider"></li>
+								<li><a href="">anemia</a></li>
+								<li><a href="">asthama</a></li>
+								<li><a href="">allergies</a></li>
+								<li><a href="">thyroid</a></li>
+								<li><a href="">diabeties</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle item-left" data-toggle="dropdown">fitness<span class="caret"></span></a>
+							<ul  class="dropdown-menu left_tabs_dropdown">
+								<li><a class="dropdown-header" href="">By Condition</a></li>
+								<li class="divider"></li>
+								<li><a href="">anemia</a></li>
+								<li><a href="">asthama</a></li>
+								<li><a href="">allergies</a></li>
+								<li><a href="">thyroid</a></li>
+								<li><a href="">diabeties</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul id="right_tabs" class="nav navbar-nav col-md-3">
+						<li><a class="item-right" href="#">register <span class="glyphicon glyphicon-user"></span></a></li>
+						<li><a class="item-right" href="#">sign in <span class="glyphicon glyphicon-sign-up"></span></a></li>
+						<li><a class="item-right" href="#">cart <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+					</ul>
+				</div>
+			</nav>
+			<article class="row" id="first_article">
+				<section class="col-md-12" id="main_slider">
+					<iframe src="index_support_file2.php">
+					</iframe>
+				</section>
+			</article>
+			<aside>
+			</aside>
+			<footer>
+			</footer>
+		</main>
+	</body>
+</html>
